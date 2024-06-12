@@ -1,0 +1,85 @@
+charging detail edit
+- charging id / ocpp id
+- merk
+- model
+- serial number
+##table
+- status active charging connector
+- detail link transaksi charging connector
+
+
+payment
+- all transaksi 
+- transaksi per charging
+- transaksi per charging connector
+### data 
+- ambil dari transaksi station = total transaksi , total revenue , total refund ( widget filter month )
+- widget = total transaksi , total revenue , total refund, total tax ( perbulan ) widget kalkulasi pendapatan ( PIC , JEVI )
+
+
+report
+- data samain kaya charging log
+##widget 
+- elektric charging status
+- power usage
+## filter
+- ada filter ( action , station , type, model)
+
+
+
+charging log 
+- detail response
+{
+"connectorId": 1,
+"transactionId": 1716884678,
+"meterValue": [
+    {
+        "timestamp": "2024-05-28T08:25:11Z",
+        "sampledValue": ["Array"]
+    }
+]
+},
+
+
+setting
+- setting connector di buat table ( ambil reference dari data lama )
+- buat setting materai, ppn, fee
+
+
+station
+- widget kalkulasi pendapatan ( PIC , JEVI )
+- detail transaksi ada pembagian ( PIC, JEVI )
+
+
+
+corporate
+- akun corporate lewat admin
+- akun corporate bisa input karyawan (akun karyawan per corporate)
+- akun corporate isi saldo 
+- saldo digunakan akun karyawan
+- saldo yang sudah di bagikan ke karyawan tidak bisa refund ke corporate saldo
+- akun corporate bisa menambahkan saldo karyawan / tambah saldo karyawan
+- akun corporate bisa topup saldo di akun corporate
+- input karyawan
+### - nomor polisi
+	- username
+	- password
+	- email
+	- vehicle id
+- akun karyawan daftar ulang , untuk verifikasi data
+- untuk verifikasi data harus membawa mobil untuk di daftarkan vehicle id
+
+
+harga promo
+- 
+
+
+
+
+
+
+########################### mobil
+- charging selesai ( report ) sesuai kondisi + rincian invoice
+
+
+

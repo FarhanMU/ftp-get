@@ -2,7 +2,7 @@ const express = require("express");
 const { Client } = require("basic-ftp");
 const fs = require("fs");
 const app = express();
-const port = 3003;
+const port = 3000;
 
 app.get("/download", async (req, res) => {
   const client = new Client();
